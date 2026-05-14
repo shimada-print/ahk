@@ -1,5 +1,7 @@
-#Requires AutoHotkey v2.0
-#SingleInstance Force
+# Requires AutoHotkey v2.026
+# Make Code: 2026.5.14
+# https://github.com/shimada-print/ahk/edit/main/win-app/Password-Memo_100-File_ver.1/
+# SingleInstance Force
 
 SaveFile := "data.ini"
 CurrentSlot := 1
@@ -273,7 +275,7 @@ OpenReadme(*)
 
 OpenHomepage(*)
 {
-    Run("http://shimadaprint.stars.ne.jp/")
+    Run("https://github.com/shimada-print/ahk/edit/main/win-app/Password-Memo_100-File_ver.1/")
 }
 
 ; =========================
