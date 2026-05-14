@@ -1,7 +1,11 @@
-# Requires AutoHotkey v2.026
-# Make Code: 2026.5.14
-# https://github.com/shimada-print/ahk/edit/main/win-app/Password-Memo_100-File_ver.1/
-# SingleInstance Force
+; ===========================================================
+; Make Version: AutoHotkey v2.026
+; Make Code: 2026.5.14
+; Maker: https://zenn.dev/shimada_print
+; ===========================================================
+
+#Requires AutoHotkey v2.0
+#SingleInstance Force
 
 SaveFile := "data.ini"
 CurrentSlot := 1
